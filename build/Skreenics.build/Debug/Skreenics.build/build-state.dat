@@ -1,0 +1,453 @@
+TSkreenics
+v7
+r0
+t298705842.579652
+cCheck dependencies
+cProcessInfoPlistFile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/Skreenics.app/Contents/Resources/rb_main.rb rb_main.rb
+cCompileXIB /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SkreenicsAppDelegate.rb src/SkreenicsAppDelegate.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKVideoItem.rb src/SKVideoItem.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKPreferencesController.rb src/Controllers/SKPreferencesController.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKGenerateThumbnailOperation.rb src/Operations/SKGenerateThumbnailOperation.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKDragView.rb src/GUI/SKDragView.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKProgressCell.rb src/GUI/SKProgressCell.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKProgressIndicator.rb src/GUI/SKProgressIndicator.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/NSStringAdditions.rb src/Additions/NSStringAdditions.rb
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKRgbToNSColorTransformer.rb "src/Value Transformers/SKRgbToNSColorTransformer.rb"
+cCpResource build/Debug/Skreenics.app/Contents/Resources/ExpandedPathToPathTransformer.rb "src/Value Transformers/ExpandedPathToPathTransformer.rb"
+cCpResource build/Debug/Skreenics.app/Contents/Resources/ExpandedPathToIconTransformer.rb "src/Value Transformers/ExpandedPathToIconTransformer.rb"
+cCpResource build/Debug/Skreenics.app/Contents/Resources/SKConstants.rb src/SKConstants.rb
+cCopyPlistFile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/UserDefaults.plist UserDefaults.plist
+cCpResource build/Debug/Skreenics.app/Contents/Resources/Skreenics.icns Images/Skreenics.icns
+cCpResource build/Debug/Skreenics.app/Contents/Resources/ToolbarRemoveTemplate.png Images/ToolbarRemoveTemplate.png
+cCompileC build/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/main.o /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/MacOS/Skreenics normal x86_64
+cTouch /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B7D589B00000000000000EE
+t1266505883
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004BDB4850000000000000005F
+t1272662096
+s95
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004BDF355E0000000001C109E8
+t1272919390
+s29428200
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/InfoPlist.strings
+c000000004BDF34AE00000000000000DC
+t1272919214
+s220
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib
+c000000004BDF34AE0000000000041271
+t1272919214
+s266865
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Images/Skreenics.icns
+c000000004BDF34AE000000000003EBEF
+t1272919214
+s257007
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Images/ToolbarRemoveTemplate.png
+c000000004BDF34AE000000000000034B
+t1272919214
+s843
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/UserDefaults.plist
+c000000004BDF34AE0000000000000519
+t1272919214
+s1305
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app
+t1277013042
+s102
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Info.plist
+t1277013039
+s955
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/MacOS/Skreenics
+t1277013042
+s9712
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/PkgInfo
+t1277013039
+s8
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1277013040
+s220
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj/MainMenu.nib
+t1277013040
+s56445
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/ExpandedPathToIconTransformer.rb
+t1277013041
+s2356
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/ExpandedPathToPathTransformer.rb
+t1277013040
+s1872
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/NSStringAdditions.rb
+t1277013040
+s2405
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKConstants.rb
+t1277013041
+s1283
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKDragView.rb
+t1277013040
+s2352
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKGenerateThumbnailOperation.rb
+t1277013040
+s11016
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKPreferencesController.rb
+t1277013040
+s3067
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKProgressCell.rb
+t1277013040
+s5450
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKProgressIndicator.rb
+t1277013040
+s4873
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKRgbToNSColorTransformer.rb
+t1277013040
+s1495
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SKVideoItem.rb
+t1277013040
+s3737
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/Skreenics.icns
+t1277013041
+s257007
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/SkreenicsAppDelegate.rb
+t1277013040
+s8588
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/ToolbarRemoveTemplate.png
+t1277013041
+s843
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/UserDefaults.plist
+t1277013041
+s1305
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/rb_main.rb
+t1277013040
+s640
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/Skreenics.LinkFileList
+c000000004C1DAC2F000000000000007F
+t1277013039
+s127
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/main.o
+t1277013042
+s7488
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m
+c000000004BDF34AE00000000000000FE
+t1272919214
+s254
+i<MacRuby/MacRuby.h>
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/rb_main.rb
+c000000004BDF34AE0000000000000280
+t1272919214
+s640
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Additions/NSStringAdditions.rb
+c000000004BDF34AE0000000000000965
+t1272919214
+s2405
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Controllers/SKPreferencesController.rb
+c000000004BDF34AE0000000000000BFB
+t1272919214
+s3067
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKDragView.rb
+c000000004BDF34AE0000000000000930
+t1272919214
+s2352
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKProgressCell.rb
+c000000004BDF34AE000000000000154A
+t1272919214
+s5450
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKProgressIndicator.rb
+c000000004BDF34AE0000000000001309
+t1272919214
+s4873
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Operations/SKGenerateThumbnailOperation.rb
+c000000004BDF34AE0000000000002B08
+t1272919214
+s11016
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SKConstants.rb
+c000000004BDF34AE0000000000000503
+t1272919214
+s1283
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SKVideoItem.rb
+c000000004BDF34AE0000000000000E99
+t1272919214
+s3737
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SkreenicsAppDelegate.rb
+c000000004BDF34AE000000000000218C
+t1272919214
+s8588
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/ExpandedPathToIconTransformer.rb
+c000000004BDF34AE0000000000000934
+t1272919214
+s2356
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/ExpandedPathToPathTransformer.rb
+c000000004BDF34AE0000000000000750
+t1272919214
+s1872
+
+N/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/SKRgbToNSColorTransformer.rb
+c000000004BDF34AE00000000000005D7
+t1272919214
+s1495
+
+NInfo.plist
+c000000004BDF34AE00000000000003E2
+t1272919214
+s994
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298705839#298705839#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/main.o /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298705841.212324
+e298705842.374461
+r1
+xCompileC
+xbuild/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/main.o
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m298705841#298705842#0(0"0(0#0#60"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m4300911832#1126"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/Skreenics.hmap -F/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug -F/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug -I/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/include -I/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/DerivedSources/x86_64 -I/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/DerivedSources -c /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/main.m -o /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib
+s298705839.869962
+e298705841.169655
+r1
+xCompileXIB
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib:696: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib298705839#298705841#0(167"/* com.apple.ibtool.document.notices *//Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib:696: note: This view is clipping its content.1(13@34"This view is clipping its content.298705841#18446744073709551615#0#0(6@80"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib294612014#696#0#696#0#0"0(0#0#80"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib4300911832#374"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj/MainMenu.nib /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/MainMenu.xib0#
+
+CCopyPlistFile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/UserDefaults.plist UserDefaults.plist
+s298705840.652567
+e298705841.107588
+r1
+xCopyPlistFile
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/UserDefaults.plist
+xUserDefaults.plist
+lSLF07#2@23"Copy UserDefaults.plist298705840#298705841#0(0"0(0#0#72"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/UserDefaults.plist4300911832#279"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist UserDefaults.plist --outdir /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCopyStringsFile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s298705839.868064
+e298705840.498492
+r1
+xCopyStringsFile
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings298705839#298705840#0(0"0(0#0#85"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/English.lproj/InfoPlist.strings4300911832#398"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/ExpandedPathToIconTransformer.rb "src/Value Transformers/ExpandedPathToIconTransformer.rb"
+s298705840.650771
+e298705841.102486
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/ExpandedPathToIconTransformer.rb
+xsrc/Value Transformers/ExpandedPathToIconTransformer.rb
+lSLF07#2@60"Copy src/Value Transformers/ExpandedPathToIconTransformer.rb298705840#298705841#0(0"0(0#0#109"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/ExpandedPathToIconTransformer.rb4300911832#420"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/ExpandedPathToIconTransformer.rb" /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/ExpandedPathToPathTransformer.rb "src/Value Transformers/ExpandedPathToPathTransformer.rb"
+s298705840.559089
+e298705840.650198
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/ExpandedPathToPathTransformer.rb
+xsrc/Value Transformers/ExpandedPathToPathTransformer.rb
+lSLF07#2@60"Copy src/Value Transformers/ExpandedPathToPathTransformer.rb298705840#298705840#0(0"0(0#0#109"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/ExpandedPathToPathTransformer.rb4300911832#420"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/ExpandedPathToPathTransformer.rb" /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/NSStringAdditions.rb src/Additions/NSStringAdditions.rb
+s298705840.507855
+e298705840.675759
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/NSStringAdditions.rb
+xsrc/Additions/NSStringAdditions.rb
+lSLF07#2@39"Copy src/Additions/NSStringAdditions.rb298705840#298705840#0(0"0(0#0#88"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Additions/NSStringAdditions.rb4300911832#397"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Additions/NSStringAdditions.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKConstants.rb src/SKConstants.rb
+s298705840.651675
+e298705841.101872
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKConstants.rb
+xsrc/SKConstants.rb
+lSLF07#2@23"Copy src/SKConstants.rb298705840#298705841#0(0"0(0#0#72"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SKConstants.rb4300911832#381"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SKConstants.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKDragView.rb src/GUI/SKDragView.rb
+s298705840.502997
+e298705840.675214
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKDragView.rb
+xsrc/GUI/SKDragView.rb
+lSLF07#2@26"Copy src/GUI/SKDragView.rb298705840#298705840#0(0"0(0#0#75"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKDragView.rb4300911832#384"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKDragView.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKGenerateThumbnailOperation.rb src/Operations/SKGenerateThumbnailOperation.rb
+s298705840.501208
+e298705840.650447
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKGenerateThumbnailOperation.rb
+xsrc/Operations/SKGenerateThumbnailOperation.rb
+lSLF07#2@51"Copy src/Operations/SKGenerateThumbnailOperation.rb298705840#298705840#0(0"0(0#0#100"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Operations/SKGenerateThumbnailOperation.rb4300911832#409"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Operations/SKGenerateThumbnailOperation.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKPreferencesController.rb src/Controllers/SKPreferencesController.rb
+s298705840.500369
+e298705840.650325
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKPreferencesController.rb
+xsrc/Controllers/SKPreferencesController.rb
+lSLF07#2@47"Copy src/Controllers/SKPreferencesController.rb298705840#298705840#0(0"0(0#0#96"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Controllers/SKPreferencesController.rb4300911832#405"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Controllers/SKPreferencesController.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKProgressCell.rb src/GUI/SKProgressCell.rb
+s298705840.504897
+e298705840.650566
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKProgressCell.rb
+xsrc/GUI/SKProgressCell.rb
+lSLF07#2@30"Copy src/GUI/SKProgressCell.rb298705840#298705840#0(0"0(0#0#79"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKProgressCell.rb4300911832#388"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKProgressCell.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKProgressIndicator.rb src/GUI/SKProgressIndicator.rb
+s298705840.506766
+e298705840.650684
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKProgressIndicator.rb
+xsrc/GUI/SKProgressIndicator.rb
+lSLF07#2@35"Copy src/GUI/SKProgressIndicator.rb298705840#298705840#0(0"0(0#0#84"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKProgressIndicator.rb4300911832#393"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/GUI/SKProgressIndicator.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKRgbToNSColorTransformer.rb "src/Value Transformers/SKRgbToNSColorTransformer.rb"
+s298705840.509695
+e298705840.675358
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKRgbToNSColorTransformer.rb
+xsrc/Value Transformers/SKRgbToNSColorTransformer.rb
+lSLF07#2@56"Copy src/Value Transformers/SKRgbToNSColorTransformer.rb298705840#298705840#0(0"0(0#0#105"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/SKRgbToNSColorTransformer.rb4300911832#416"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/Value Transformers/SKRgbToNSColorTransformer.rb" /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SKVideoItem.rb src/SKVideoItem.rb
+s298705840.499542
+e298705840.558979
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SKVideoItem.rb
+xsrc/SKVideoItem.rb
+lSLF07#2@23"Copy src/SKVideoItem.rb298705840#298705840#0(0"0(0#0#72"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SKVideoItem.rb4300911832#381"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SKVideoItem.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/Skreenics.icns Images/Skreenics.icns
+s298705841.107682
+e298705841.212191
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/Skreenics.icns
+xImages/Skreenics.icns
+lSLF07#2@26"Copy Images/Skreenics.icns298705841#298705841#0(0"0(0#0#75"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Images/Skreenics.icns4300911832#384"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Images/Skreenics.icns /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/SkreenicsAppDelegate.rb src/SkreenicsAppDelegate.rb
+s298705840.498594
+e298705840.650011
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/SkreenicsAppDelegate.rb
+xsrc/SkreenicsAppDelegate.rb
+lSLF07#2@32"Copy src/SkreenicsAppDelegate.rb298705840#298705840#0(0"0(0#0#81"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SkreenicsAppDelegate.rb4300911832#390"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/src/SkreenicsAppDelegate.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/ToolbarRemoveTemplate.png Images/ToolbarRemoveTemplate.png
+s298705841.109174
+e298705841.122517
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/ToolbarRemoveTemplate.png
+xImages/ToolbarRemoveTemplate.png
+lSLF07#2@37"Copy Images/ToolbarRemoveTemplate.png298705841#298705841#0(0"0(0#0#86"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Images/ToolbarRemoveTemplate.png4300911832#395"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Images/ToolbarRemoveTemplate.png /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CCpResource build/Debug/Skreenics.app/Contents/Resources/rb_main.rb rb_main.rb
+s298705839.869105
+e298705840.405334
+r1
+xCpResource
+xbuild/Debug/Skreenics.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb298705839#298705840#0(0"0(0#0#64"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/rb_main.rb4300911832#373"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/rb_main.rb /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Resources0#
+
+CLd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/MacOS/Skreenics normal x86_64
+s298705842.374640
+e298705842.575662
+r1
+xLd
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/MacOS/Skreenics
+xnormal
+xx86_64
+lSLF07#2@109"Link /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/MacOS/Skreenics298705842#298705842#0(0"0(0#0#0"4300911832#714"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug -F/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug -F/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug -filelist /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Skreenics.build/Debug/Skreenics.build/Objects-normal/x86_64/Skreenics.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/MacOS/Skreenics0#
+
+CProcessInfoPlistFile /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Info.plist Info.plist
+s298705839.863051
+e298705839.867959
+r1
+xProcessInfoPlistFile
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist298705839#298705839#0(0"0(0#0#64"/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/Info.plist4300911832#351"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    builtin-infoPlistUtility Info.plist -genpkginfo /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app/Contents/Info.plist0#
+
+CTouch /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app
+s298705842.575760
+e298705842.579597
+r1
+xTouch
+x/Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app
+lSLF07#2@85"Touch /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app298705842#298705842#0(0"0(0#0#0"4300911832#163"    cd /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics    /usr/bin/touch -c /Users/mariovejlupek/Projectos/CineMagicLab/Skreenics/build/Debug/Skreenics.app0#
+
