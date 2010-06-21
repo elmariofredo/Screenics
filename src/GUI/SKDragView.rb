@@ -4,6 +4,13 @@
 # Created by naixn on 29/04/10.
 # Copyright 2010 Thibault Martin-Lagardette. All rights reserved.
 
+require 'csv'
+
+def growl(message, type='')
+	system "growlnotify \"D-Bug\" -m\"#{type} #{message}\""
+end
+
+
 class SKDragView < NSView
     attr_writer :dragDelegate
 
@@ -11,6 +18,7 @@ class SKDragView < NSView
         if super
             registerForDraggedTypes([NSFilenamesPboardType])
             @acceptableMovieTypes = QTMovie.movieTypesWithOptions(QTIncludeCommonTypes)
+			@acceptableBatchTypes = ['public.comma-separated-values-text']
             @dragDelegate = nil
             self
         end
@@ -35,7 +43,8 @@ class SKDragView < NSView
                 filemanager.fileExistsAtPath(filePath, isDirectory: ptr)
                 pathIsDirectory = ptr[0]
                 break if pathIsDirectory
-                if @acceptableMovieTypes.containsObject(workspace.typeOfFile(filePath, error: nil))
+                if @acceptableMovieTypes.containsObject(workspace.typeOfFile(filePath, error: nil)) or @acceptableBatchTypes.containsObject(workspace.typeOfFile(filePath, error: nil))
+					#growl(filePath, 'ok')
                     canQTKitInitDraggedFiles = true
                     break
                 end
@@ -53,7 +62,26 @@ class SKDragView < NSView
         pboard = sender.draggingPasteboard
         if pboard.types.containsObject(NSFilenamesPboardType)
             pboard.propertyListForType(NSFilenamesPboardType).each do |filePath|
-                @dragDelegate.addDragPathElement(filePath)
+				growl(filePath, 'sok')
+				
+				# if csv file
+				workspace = NSWorkspace.sharedWorkspace
+				if @acceptableBatchTypes.containsObject(workspace.typeOfFile(filePath, error: nil))
+					#File.open(filePath).each_line{ |s|
+					#	growl s
+					#}
+					file = File.new(filePath, 'r')
+
+					file.each_line("\n") do |row|
+						column = row.split(",")
+						growl column[0]
+						@dragDelegate.addDragPathElement(column[0])
+						break if file.lineno > 10
+					end
+				else
+					growl column[0]
+					@dragDelegate.addDragPathElement(filePath)
+				end
             end
             return true
         end
