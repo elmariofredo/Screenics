@@ -44,7 +44,6 @@ class SKDragView < NSView
                 pathIsDirectory = ptr[0]
                 break if pathIsDirectory
                 if @acceptableMovieTypes.containsObject(workspace.typeOfFile(filePath, error: nil)) or @acceptableBatchTypes.containsObject(workspace.typeOfFile(filePath, error: nil))
-					#growl(filePath, 'ok')
                     canQTKitInitDraggedFiles = true
                     break
                 end
@@ -62,24 +61,29 @@ class SKDragView < NSView
         pboard = sender.draggingPasteboard
         if pboard.types.containsObject(NSFilenamesPboardType)
             pboard.propertyListForType(NSFilenamesPboardType).each do |filePath|
-				growl(filePath, 'sok')
 				
-				# if csv file
+				# if csv batch file
 				workspace = NSWorkspace.sharedWorkspace
 				if @acceptableBatchTypes.containsObject(workspace.typeOfFile(filePath, error: nil))
-					#File.open(filePath).each_line{ |s|
-					#	growl s
-					#}
 					file = File.new(filePath, 'r')
 
 					file.each_line("\n") do |row|
 						column = row.split(",")
-						growl column[0]
-						@dragDelegate.addDragPathElement(column[0])
-						break if file.lineno > 10
+						
+						videos = column[2].split("@")
+						
+						for video in videos
+							shot = video.split(":")
+							if not (column[0].nil? or column[0].empty?)
+								#growl column[0], "Load"
+								@dragDelegate.addDragPathElement(column[0], {:destfolder => column[1],:seq => shot[1], :name => shot[0]})
+							end
+						end
+						
+						#break if file.lineno > 10
 					end
+				# single video file
 				else
-					growl column[0]
 					@dragDelegate.addDragPathElement(filePath)
 				end
             end

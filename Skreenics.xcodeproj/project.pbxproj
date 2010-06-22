@@ -59,11 +59,11 @@
 		768F166E118A1E4A00F5B792 /* ExpandedPathToIconTransformer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 768F166D118A1E4A00F5B792 /* ExpandedPathToIconTransformer.rb */; };
 		768F1670118A1F3500F5B792 /* SKConstants.rb in Resources */ = {isa = PBXBuildFile; fileRef = 768F166F118A1F3500F5B792 /* SKConstants.rb */; };
 		768F1696118A215E00F5B792 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 768F1695118A215E00F5B792 /* UserDefaults.plist */; };
-		768F16AF118A21C200F5B792 /* Skreenics.icns in Resources */ = {isa = PBXBuildFile; fileRef = 768F16AD118A21C200F5B792 /* Skreenics.icns */; };
 		768F16B0118A21C200F5B792 /* ToolbarRemoveTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 768F16AE118A21C200F5B792 /* ToolbarRemoveTemplate.png */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D8AE994A11CFD691000CF195 /* Skreenics.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8AE994911CFD691000CF195 /* Skreenics.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,10 +103,10 @@
 		768F166D118A1E4A00F5B792 /* ExpandedPathToIconTransformer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExpandedPathToIconTransformer.rb; sourceTree = "<group>"; };
 		768F166F118A1F3500F5B792 /* SKConstants.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SKConstants.rb; sourceTree = "<group>"; };
 		768F1695118A215E00F5B792 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
-		768F16AD118A21C200F5B792 /* Skreenics.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Skreenics.icns; sourceTree = "<group>"; };
 		768F16AE118A21C200F5B792 /* ToolbarRemoveTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarRemoveTemplate.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Skreenics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skreenics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AE994911CFD691000CF195 /* Skreenics.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Skreenics.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,7 +264,7 @@
 		768F16A2118A21A100F5B792 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				768F16AD118A21C200F5B792 /* Skreenics.icns */,
+				D8AE994911CFD691000CF195 /* Skreenics.icns */,
 				768F16AE118A21C200F5B792 /* ToolbarRemoveTemplate.png */,
 			);
 			path = Images;
@@ -333,8 +333,8 @@
 				768F166E118A1E4A00F5B792 /* ExpandedPathToIconTransformer.rb in Resources */,
 				768F1670118A1F3500F5B792 /* SKConstants.rb in Resources */,
 				768F1696118A215E00F5B792 /* UserDefaults.plist in Resources */,
-				768F16AF118A21C200F5B792 /* Skreenics.icns in Resources */,
 				768F16B0118A21C200F5B792 /* ToolbarRemoveTemplate.png in Resources */,
+				D8AE994A11CFD691000CF195 /* Skreenics.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -125,8 +125,9 @@ class SKGenerateThumbnailOperation < NSOperation
         frameAreaSize.height = (movieSize.height * frameAreaSize.width) / movieSize.width
         imageSize = NSMakeSize(prefWidth, frameAreaSize.height * @rows + (@rows + 1) * prefSpacing)
 
+
         # Get the time we will pad around the movie, and set the initial value
-        incrementTime = movie.duration
+	    incrementTime = movie.duration
         incrementTime.timeValue /= (@cols * @rows)
         currentTime = incrementTime
         currentTime.timeValue /= 2.0
@@ -199,11 +200,11 @@ class SKGenerateThumbnailOperation < NSOperation
                 NSGraphicsContext.restoreGraphicsState
 
                 # Draw border
-                NSColor.blackColor.colorWithAlphaComponent(0.75).set
-                NSBezierPath.strokeRect(drawingRect)
+                #NSColor.blackColor.colorWithAlphaComponent(0.75).set
+                #NSBezierPath.strokeRect(drawingRect)
 
                 # Draw timestamp
-                attributedStringForQTTime(currentTime).drawAtPoint(NSMakePoint(x + 5.0, y + 5.0))
+                #attributedStringForQTTime(currentTime).drawAtPoint(NSMakePoint(x + 5.0, y + 5.0))
 
                 # Get further in the video
                 currentTime = QTTimeIncrement(currentTime, incrementTime)
@@ -224,7 +225,11 @@ class SKGenerateThumbnailOperation < NSOperation
             if @userDefaults[KSKPreferMovieFileFolderPrefKey]
                 savePath = movieFilePath.stringByDeletingPathExtension.stringByAppendingPathExtension(imageExtension)
             else
-                outputFolder = @userDefaults[KSKOuputFolderPrefKey].stringByExpandingTildeInPath
+				if @videoItem.destfolder.nil?
+					outputFolder = @userDefaults[KSKOuputFolderPrefKey].stringByExpandingTildeInPath
+				else
+					outputFolder = @videoItem.destfolder
+				end
                 outputFileName = @videoItem.filename.stringByDeletingPathExtension.stringByAppendingPathExtension(imageExtension)
                 savePath = outputFolder.stringByAppendingPathComponent(outputFileName)
             end

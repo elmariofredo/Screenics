@@ -12,6 +12,9 @@ KSKProgressIndicatorKey = "progressIndicator"
 KSKProgressValueKey = "progressValue"
 KSKProgressStringKey = "progressString"
 KSKNumberOfStepsKey = "numberOfSteps"
+KSKDestinationFolder = "destinationFolder"
+KSKFrameNumber = "frameNumber"
+
 
 # Video collection observer keys
 KSKObserverKeyPathKey = "keyPath"

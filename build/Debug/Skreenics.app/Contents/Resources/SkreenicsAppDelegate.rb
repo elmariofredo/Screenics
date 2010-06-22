@@ -43,11 +43,12 @@ class SkreenicsAppDelegate
         @userDefaults.addObserver(self, forKeyPath: KSKMaxConcurrentOperationsPrefKey, options: NSKeyValueObservingOptionNew, context: nil)
     end
 
-    def addVideoFromPath(path)
+    def addVideoFromPath(path, opts={})
         return unless @acceptableMovieTypes.containsObject(NSWorkspace.sharedWorkspace.typeOfFile(path, error: nil))
 
         fullPath = path.stringByExpandingTildeInPath
-        videoItem = SKVideoItem.alloc.initWithPath(fullPath)
+		#growl opts
+        videoItem = SKVideoItem.alloc.initWithPath(fullPath, opts)
         videoItem.addObserverForInterestingKeyPaths(self)
         #
         @videoCollection << videoItem
@@ -69,7 +70,7 @@ class SkreenicsAppDelegate
         end
     end
 
-    def addPathElement(path)
+    def addPathElement(path, opts={})
         ptr = Pointer.new_with_type('B')
         NSFileManager.defaultManager.fileExistsAtPath(path, isDirectory: ptr)
         pathIsDirectory = ptr[0]
@@ -77,7 +78,7 @@ class SkreenicsAppDelegate
         if pathIsDirectory
             addVideosFromFolder(path, recursive: @userDefaults.boolForKey(KSKAddSubfoldersOnDropPrefKey))
         else
-            addVideoFromPath(path)
+            addVideoFromPath(path, opts)
         end
     end
 
@@ -169,8 +170,8 @@ class SkreenicsAppDelegate
 
     #pragma mark Drag Delegate Protocol
 
-    def addDragPathElement(path)
-        addPathElement(path)
+    def addDragPathElement(path, opts={})
+        addPathElement(path, opts)
     end
 
     #pragma mark Table View Data Source

@@ -8,17 +8,30 @@ class SKVideoItem
     attr_accessor :associatedOperation
     attr_accessor :videoItem
 
-    def initWithPath(path)
+    def initWithPath(path, opts={})
         if init
             fullPath = path.stringByExpandingTildeInPath
+			
+			# rendering video
+			if opts == {}
+				candyName = fullPath.lastPathComponent
+				candyIcon = NSWorkspace.sharedWorkspace.iconForFile(fullPath)
+			# rendering image from batch
+			else
+				candyName = "#{opts[:name]}.#{SKPreferencesController.imageFileExtension}"
+				candyIcon = NSWorkspace.sharedWorkspace.iconForFileType(SKPreferencesController.imageFileExtension)
+			end
+		
             @videoItem = {
                 KSKFilePathKey          => fullPath,
-                KSKFileNameKey          => fullPath.lastPathComponent,
-                KSKIconKey              => NSWorkspace.sharedWorkspace.iconForFile(fullPath),
+                KSKFileNameKey          => candyName,
+				KSKIconKey              => candyIcon,
                 KSKProgressIndicatorKey => SKProgressIndicator.alloc.init,
                 KSKProgressValueKey     => NSNumber.numberWithInt(0),
                 KSKProgressStringKey    => "Waiting...",
-                KSKNumberOfStepsKey     => NSNumber.numberWithInt(100)
+                KSKNumberOfStepsKey     => NSNumber.numberWithInt(100),
+				KSKDestinationFolder	=> opts[:destfolder],
+				KSKFrameNumber			=> opts[:seq]
             }
             self
         end
@@ -102,7 +115,13 @@ class SKVideoItem
         removeObserver(observer, forKeyPath: KSKVideoItemProgressValuePath)
     end
 
-    #pragma mark Simple getters
+	def destfolder
+		@videoItem[KSKDestinationFolder]
+	end
+	
+	def framenumb
+		@videoItem[KSKFrameNumber]
+	end
 
     def filepath
         @videoItem[KSKFilePathKey]
